@@ -6,15 +6,21 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-DNS lookups, reverse DNS, WHOIS, and domain checks from your AI assistant — zero auth, zero config, powered by Node.js built-in DNS.
+DNS lookups, reverse DNS, WHOIS, and domain checks from your AI assistant. No API keys, no config. Powered by Node.js built-in DNS.
 
 ```bash
 npx mcp-server-dns
 ```
 
-> Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client. Zero auth required — uses Node.js built-in DNS module.
+> Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client. Uses Node.js native `dns` module, so there's nothing to sign up for.
 
-![Demo](assets/demo.gif)
+![MCP server for DNS lookups, WHOIS queries, and domain checks](assets/demo.gif)
+
+<sub>Demo built with <a href="https://github.com/ofershap/remotion-readme-kit">remotion-readme-kit</a></sub>
+
+## Why
+
+DNS and WHOIS lookups come up more often than you'd think during development. Debugging email delivery? You need MX records. Setting up a new domain? Check the nameservers. Investigating a suspicious URL? WHOIS tells you who owns it. The existing MCP options for this require paid API keys (like WhoisXML API). This server uses Node.js built-in DNS resolution and public WHOIS servers, so it works out of the box with zero accounts or credentials.
 
 ## Tools
 
@@ -82,6 +88,7 @@ Add to user settings or `.vscode/mcp.json`:
 - "Show me the WHOIS info for github.com"
 - "What nameservers does cloudflare.com use?"
 - "Resolve all record types for google.com"
+- "Check the MX records for my-company.com"
 
 ## Development
 
