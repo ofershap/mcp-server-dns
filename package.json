@@ -1,7 +1,7 @@
 {
   "name": "mcp-server-dns",
   "version": "1.0.0",
-  "description": "MCP server for DNS lookups, reverse DNS, WHOIS, and domain checks — zero auth, zero config",
+  "description": "MCP server for DNS lookups, reverse DNS, WHOIS, and domain checks \u2014 zero auth, zero config",
   "type": "module",
   "bin": {
     "mcp-server-dns": "./dist/index.js"
@@ -62,7 +62,12 @@
     "vitest": "^3.2.0"
   },
   "lint-staged": {
-    "*.{ts,tsx,js}": "eslint --fix",
-    "*.{json,md,yml,yaml}": "prettier --write"
+    "*.{ts,tsx,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
   }
 }
