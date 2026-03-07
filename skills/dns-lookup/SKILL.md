@@ -9,13 +9,13 @@ Use this skill when you need to look up DNS records, perform reverse DNS, check 
 
 ## Available Tools
 
-| Tool | What it does |
-|------|-------------|
-| `dns_lookup` | Look up A, AAAA, MX, TXT, NS, CNAME, SOA, SRV, or PTR records |
-| `reverse_dns` | Reverse DNS (PTR) lookup on an IP address |
-| `resolve_all` | Resolve A, AAAA, MX, TXT, NS, CNAME in one call |
-| `check_nameservers` | Get nameserver (NS) records for a domain |
-| `whois` | Query WHOIS data (follows IANA referrals to registrar) |
+| Tool                | What it does                                                  |
+| ------------------- | ------------------------------------------------------------- |
+| `dns_lookup`        | Look up A, AAAA, MX, TXT, NS, CNAME, SOA, SRV, or PTR records |
+| `reverse_dns`       | Reverse DNS (PTR) lookup on an IP address                     |
+| `resolve_all`       | Resolve A, AAAA, MX, TXT, NS, CNAME in one call               |
+| `check_nameservers` | Get nameserver (NS) records for a domain                      |
+| `whois`             | Query WHOIS data (follows IANA referrals to registrar)        |
 
 ## Workflow
 
