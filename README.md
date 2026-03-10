@@ -18,6 +18,10 @@ npx mcp-server-dns
 
 <sub>Demo built with <a href="https://github.com/ofershap/remotion-readme-kit">remotion-readme-kit</a></sub>
 
+<a href="https://glama.ai/mcp/servers/ofershap/mcp-server-dns">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/ofershap/mcp-server-dns/badge" alt="mcp-server-dns MCP server" />
+</a>
+
 ## Why
 
 DNS and WHOIS lookups come up more often than you'd think during development. Debugging email delivery? You need MX records. Setting up a new domain? Check the nameservers. Investigating a suspicious URL? WHOIS tells you who owns it. The existing MCP options for this require paid API keys (like WhoisXML API). This server uses Node.js built-in DNS resolution and public WHOIS servers, so it works out of the box with zero accounts or credentials.
