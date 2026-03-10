@@ -1,6 +1,7 @@
 {
   "name": "mcp-server-dns",
-  "version": "1.0.0",
+  "mcpName": "io.github.ofershap/dns",
+  "version": "1.0.1",
   "description": "MCP server for DNS lookups, reverse DNS, WHOIS, and domain checks — zero auth, zero config",
   "type": "module",
   "bin": {
