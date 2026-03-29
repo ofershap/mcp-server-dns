@@ -32,6 +32,10 @@ DNS and WHOIS lookups come up more often than you'd think during development. De
 | `check_nameservers` | Get nameserver (NS) records for a domain               |
 | `whois`             | Query WHOIS data (follows IANA referrals to registrar) |
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ofershap-mcp-server-dns).
+
 ## Quick Start
 
 ### Cursor
